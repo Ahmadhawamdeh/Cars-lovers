@@ -4,8 +4,23 @@ if(cuffe === "Brazil"){
 }else{
    confirm("sorry try again");
 }
-var cuffe = prompt("How many cups of coffee do you drink per day?");
-if(cuffe === "18"){
+var cuffe2 = prompt("How many cups of coffee do you drink per day?");
+if(cuffe2 === "18"){
+   alert("correct answer");
+}else{
+   alert("sorry try again");
+}
+
+
+
+var cuffe3 = prompt("enter number equal 50 ?");
+
+while (cuffe3 !=50 ){
+   cuffe3 = prompt("sorry enter the correct number which is 50 :");
+}
+
+
+if(cuffe3 === "50"){
    alert("correct answer");
 }else{
    alert("sorry try again");
